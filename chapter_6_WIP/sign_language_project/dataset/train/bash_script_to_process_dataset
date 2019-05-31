@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for ((i=0; i<=9; i++)); do
+ a=$(find $i/ -type f | shuf -n 30)
+ mv $a ../valid/$i/
+ b=$(find $i/ -type f | shuf -n 5)
+ mv $b ../test/$i/
+done
