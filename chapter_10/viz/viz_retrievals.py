@@ -107,5 +107,5 @@ if __name__ == '__main__':
             labels_gallery, args.img_folder)
         output_img_path = os.path.join(args.output, str(id_q).zfill(6))
         output_img_path = output_img_path + ".png"
-        print("output is getting saved at: {}".format(output_img_path))
+        #print("output is getting saved at: {}".format(output_img_path))
         assert(cv2.imwrite(output_img_path, output_img))
