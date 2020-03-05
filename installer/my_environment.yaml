@@ -9,7 +9,7 @@ dependencies:
   - blas=1.0=mkl
   - bleach=3.1.0=py37_0
   - bzip2=1.0.8=h0b31af3_2
-  - ca-certificates=2019.11.27=0
+  - ca-certificates=2020.1.1=0
   - cairo=1.16.0=h0ab9d94_1001
   - certifi=2019.11.28=py37_0
   - cycler=0.10.0=py37_0
@@ -21,9 +21,11 @@ dependencies:
   - ffmpeg=4.0=h01ea3c9_0
   - fontconfig=2.13.1=h1027ab8_1000
   - freetype=2.9.1=hb4e5f40_0
+  - fribidi=1.0.5=h1de35cc_0
   - gettext=0.19.8.1=h15daf44_3
   - glib=2.63.1=hd977a24_0
   - graphite2=1.3.13=h2098e52_1000
+  - graphviz=2.40.1=hefbbd9a_2
   - harfbuzz=1.8.8=hb8d4a28_0
   - hdf5=1.10.2=hc401514_3
   - icu=58.2=h4b95b61_1
@@ -72,10 +74,11 @@ dependencies:
   - numpy=1.17.4=py37h890c691_0
   - numpy-base=1.17.4=py37h6575580_0
   - opencv=3.4.2=py37h6fd60c2_1
-  - openssl=1.1.1d=h1de35cc_3
+  - openssl=1.1.1d=h1de35cc_4
   - pandas=0.25.3=py37h0a44026_0
   - pandoc=2.2.3.2=0
   - pandocfilters=1.4.2=py37_1
+  - pango=1.42.4=h060686c_0
   - parso=0.5.2=py_0
   - pcre=8.43=h0a44026_0
   - pexpect=4.7.0=py37_0
@@ -86,6 +89,7 @@ dependencies:
   - prompt_toolkit=2.0.9=py37_0
   - ptyprocess=0.6.0=py37_0
   - py-opencv=3.4.2=py37h7c891bd_1
+  - pydotplus=2.0.2=py37_1
   - pygments=2.5.2=py_0
   - pyparsing=2.4.6=py_0
   - pyqt=5.9.2=py37h655552a_2
@@ -133,9 +137,11 @@ dependencies:
     - markdown==3.1.1
     - oauthlib==3.1.0
     - opt-einsum==3.1.0
+    - pillow==7.0.0
     - protobuf==3.11.2
     - pyasn1==0.4.8
     - pyasn1-modules==0.2.8
+    - pydot==1.4.1
     - pyyaml==5.3
     - requests==2.22.0
     - requests-oauthlib==1.3.0
