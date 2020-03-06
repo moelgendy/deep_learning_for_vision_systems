@@ -131,6 +131,7 @@ dependencies:
     - grpcio==1.26.0
     - h5py==2.10.0
     - idna==2.8
+    - joblib==0.14.1
     - keras==2.3.1
     - keras-applications==1.0.8
     - keras-preprocessing==1.1.0
@@ -145,6 +146,7 @@ dependencies:
     - pyyaml==5.3
     - requests==2.22.0
     - requests-oauthlib==1.3.0
+    - scikit-learn==0.22.2.post1
     - scipy==1.4.1
     - tensorboard==2.1.0
     - tensorflow==2.1.0
