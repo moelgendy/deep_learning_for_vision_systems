@@ -4,7 +4,7 @@ astor==0.8.1
 attrs==19.3.0
 awscli==1.16.97
 backcall==0.1.0
-bleach==3.1.0
+bleach==3.3.0
 botocore==1.12.87
 cachetools==4.0.0
 certifi==2019.11.28
